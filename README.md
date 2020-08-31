@@ -8,7 +8,7 @@ Throttling is a simple library that helps to limit tasks by a period of time.
 	var limitingPeriodInMilliseconds = 1000;
         Throttled throttled = new Throttled(taskLimit, limitingPeriodInMilliseconds);
 	await throttled.Run(() => {
-		//Some task that should be limited like http request
+		//Some task that should be limited...
 		return Task.CompletedTask;		
 	});
 ```
