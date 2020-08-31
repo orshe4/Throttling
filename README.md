@@ -1,6 +1,9 @@
 # Throttling
 Throttling is a simple library that helps to limit tasks by a period of time.
 
+## Give a Star! :star:
+If you like or are using this project please give it a star. Thanks!
+
 ## Usage
 
 ```C#
